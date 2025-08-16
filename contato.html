@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contato - RoboMed Engenharia</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<style>
+    .header {
+    padding: 1rem 0;
+    background-color: #2b46cc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.text-primary {
+    color: #000000;
+}
+
+.text-secondary {
+    color: #000000;
+}
+
+.nav-list {
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+}
+
+.footer {
+    padding: 1.5rem 0;
+    background-color: #727178e1;
+    font-size: 0.9rem;
+}
+
+.text-muted {
+    color: #ffffff;
+}
+
+
+</style>
+<body>
+    <header class="header flex flex-space-between flex-align-center">
+        <div class="logo text-bold text-primary">RoboMed Engenharia</div>
+        <nav class="nav">
+              <ul class="nav-list flex">
+                <li class="nav-item"><a href="index.html" class="nav-link text-secondary">Início</a></li>
+                <li class="nav-item"><a href="consultoria.html" class="nav-link text-secondary">Consultoria</a></li>
+                <li class="nav-item"><a href="projetos.html" class="nav-link text-secondary">Projetos</a></li>
+                <li class="nav-item"><a href="manutencao.html" class="nav-link text-secondary">Manutenção</a></li>
+                <li class="nav-item"><a href="historia.html" class="nav-link text-secondary">História</a></li>
+                <li class="nav-item"><a href="contato.html" class="nav-link text-secondary">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main container">
+        <section class="contact section"> <center>
+            <h2 class="title title-large text-primary mb-20">Entre em Contato</h2>
+        </center>
+        <form action="obrigado.html" method="get" class="form flex flex-column">
+    <label for="nome" class="label mb-5">Nome</label>
+    <input type="text" id="nome" name="nome" class="input mb-15" placeholder="Seu nome" required />
+
+    <label for="email" class="label mb-5">Email</label>
+    <input type="email" id="email" name="email" class="input mb-15" placeholder="Seu email" required />
+
+    <label for="mensagem" class="label mb-5">Mensagem</label>
+    <textarea id="mensagem" name="mensagem" class="textarea mb-20" placeholder="Descreva sua necessidade" rows="5" required></textarea>
+
+    <button type="submit" class="btn btn-secondary">Enviar</button>
+</form>
+
+        </section>
+    </main>
+     
+
+    <footer class="footer container flex flex-center">
+        <p class="text text-small text-muted">&copy; 2025 RoboMed Engenharia. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
