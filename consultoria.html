@@ -6,20 +6,59 @@
     <title>Consultoria - RoboMed Engenharia</title>
     <link rel="stylesheet" href="style.css" />
 </head>
+<style>
+    .header {
+    padding: 1rem 0;
+    background-color: #2b46cc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.nav-list {
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    transition: color 0.3s;
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    color: #ffffff;
+}
+
+.footer {
+    padding: 1.5rem 0;
+    background-color: #727178e1;
+    font-size: 0.9rem;
+}
+
+.text-muted {
+    color: #ffffff;
+}
+
+
+
+</style>
 <body>
-    <header class="header container flex flex-space-between flex-align-center">
+     <header class="header flex flex-space-between flex-align-center">
+
         <div class="logo text-bold text-primary">RoboMed Engenharia</div>
         <nav class="nav">
-            <ul class="nav-list flex">
+              <ul class="nav-list flex">
                 <li class="nav-item"><a href="index.html" class="nav-link text-secondary">Início</a></li>
-                <li class="nav-item"><a href="consultoria.html" class="nav-link text-primary">Consultoria</a></li>
+                <li class="nav-item"><a href="consultoria.html" class="nav-link text-secondary">Consultoria</a></li>
                 <li class="nav-item"><a href="projetos.html" class="nav-link text-secondary">Projetos</a></li>
                 <li class="nav-item"><a href="manutencao.html" class="nav-link text-secondary">Manutenção</a></li>
-                <li class="nav-item"><a href="index.html#contact" class="nav-link text-secondary">Contato</a></li>
+                <li class="nav-item"><a href="historia.html" class="nav-link text-secondary">História</a></li>
+                <li class="nav-item"><a href="contato.html" class="nav-link text-secondary">Contato</a></li>
             </ul>
         </nav>
     </header>
-
     <main class="main container">
         <section class="section">
             <h1 class="title title-large text-primary mb-20">Consultoria em Robótica Médica</h1>
@@ -28,7 +67,9 @@
             </p>
             <p class="text text-medium mb-20">
                 Atuamos na avaliação de equipamentos, análise de viabilidade técnica e regulatória, além de planejamento estratégico para implantação de tecnologias inovadoras.
-            </p>
+           <center> </p>
+           <img src="https://i.ibb.co/Z1Sn214d/CRM-Surgical-850x560.jpg" alt="Consultoria em Robótica Médica" class="img-responsive mb-40" />
+        </center>
         </section>
     </main>
 
